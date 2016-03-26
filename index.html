@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+
+<!-- Informationen vorab:
+     Die ganze Seite wird zuerst auf Deutsch konstruiert. Die zweite Priorität nimmt Englisch ein.
+     Wichtige Hinweise!! 
+     Die Pfadangaben sind für zukünkftige Zwecke in English zu wählen.
+     Dokummentationen zu dieser Datei sind hier vertreut an den jeweiligen Orten vorhanden.
+     Vielen Dank! -->
+
+<!-- Ok, verdammt, ich muss mir jetzt einen Plan meiner Internetpräsenz machen.
+     Nun gut, der Plan sieht folgerndermaßen aus:
+     
+     Oberste Kopfzeile (Globale Navigation): Home; Pass; Suche; I10n & L18n
+     
+     
+      -->
+
+<html lang="de">
+
+<head>
+
+    <!-- Encoding: -->
+    <meta charset="utf-8">
+    <!-- General information: -->
+    <title>Herzlich willkommen auf der Internetseite von Echoma!</title>
+    <meta name="description" content="Das ist die Internetpräsenz von Echoma. Vielen Dank für Ihren Besuch!">
+    <meta name="keywords" content="Echoma, Internetpräsenz, deutsch, de,">
+    <meta name="author" content="Slashkatze">
+    <!-- CSS and JS files and lines -->
+    <link href="/assets/CSS/outline.css" rel="stylesheet" type="text/css"><!-- Diese CSS Datei enthält Code für den globalen Umriss der Seite. -->
+    <link href="/assets/CSS/de/specified-layout.css" rel="stylesheet" type="text/css"><!-- Diese CSS Datei beinhaltet spezifischere Gestalltungsanweisungen, die lediglich auf diese oder einige weitere Seite zugeschnitten sind. -->
+    <!-- Im nachfolgenden sind lokale Gestaltungen, falls vorhanden, festgeschrieben. -->
+    <style type="text/css" media="all">
+        div, nav, ul, ol, li, span, a {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            font-family: 'Helvetica';
+            overflow: hidden;
+        }
+
+        div, header, main, nav, section {
+            display: block;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .disallowed {
+            cursor: not-allowed;
+        }
+
+        .chinese {
+            font-family: 'Droid Sans Fallback';
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            width: 100%;
+            min-width: 1000px;
+            height: 100%;
+            min-height: 2000px;
+        }
+        
+        div#entire-document {
+            margin: inherit;
+            padding: inherit;
+            border: inherit;
+            width: inherit;
+            min-width: inherit;
+            height: inherit;
+            min-height: inherit;
+        }
+        
+        /* HIER IST DER KOPFBEREICH */
+
+        header#header {
+            border-top: 2px solid blue;
+            height: 150px;
+            margin-bottom: 60px;
+        }
+
+        header#header > div#header-top {
+            height: 100px;
+        }
+
+        header#header > div#header-top > div#header-top-content {
+            margin: 0px auto;
+            width: 1000px;
+            height: inherit;
+            position: relative;
+        }
+        
+        header#header > div#header-top > div#header-top-content > div#header-logo {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 200px;
+            height: inherit;
+            background: bottom url('http://how-to-get-bigger-boobs.com/wp-content/uploads/2015/10/big-breasts.jpg');
+        }
+
+        header#header > div#header-top > div#header-top-content > nav#header-global-navigation {
+            width: 300px;
+            height: inherit;
+            position: absolute;
+            top: 0px;
+            left: 200px;
+        }
+
+        nav#header-global-navigation > ul > li, nav#header-global-navigation > ul > li > div {
+            display: inline;
+        }
+
+        header#header > div#header-top > div#header-top-content > div#header-search-bar {
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            top: 0px;
+            left: 500px;
+        }
+
+        header#header > div#header-top > div#header-top-content > div#header-account {
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            top: 50px;
+            left: 500px;
+        }
+
+        header#header > div#header-top > div#header-top-content > div#header-language {
+            width: 250px;
+            height: inherit;
+            position: absolute;
+            top: 0px;
+            left: 750px;
+        }
+
+        div#header-language > ul > li > div > a {
+            text-decoration: none;
+        }
+
+        header#header > div#header-bottom {
+            height: 50px;
+            background-color: lightblue;
+        }
+
+        header#header > div#header-bottom > nav#header-navigation {
+            margin: 0px auto;
+            width: 1000px;
+            height: inherit;
+        }
+
+        nav#header-navigation > ul > li > div {
+            display: inline-block;
+        }
+
+        /* HIER IST DER HAUPTBEREICH */
+
+        main#main {
+            /* Inhalt folgt ... */
+        }
+
+        /* HIER IST DER FUßTEIL */
+
+        footer#footer {
+            /* Inhalt folgt ... */
+        }
+
+        .disallowed {
+            cursor: not-allowed;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="entire-document"><!-- Umfasst das ganze Dokumment -->
+        <header id="header"><!-- Umfasst den ganzen Kopfbereich -->
+            <div id="header-top"><!-- 1. Kopfteil: Logo, Globle Navigation, Sprache, Suche und Konto -->
+                <div id="header-top-content">
+                    <div id="header-logo" class="disallowed">
+                        <!-- Das Logo befindet sich hier drinnen -->
+                    </div>
+                    <nav id="header-global-navigation">
+                        <span>Globale Navigation</span>
+                        <ul>
+                            <li><div><a href="#">Willkommensseite</a></div></li>
+                            <li><div><a href="#">Passpyrus</a></div></li>
+                            <li><div><a href="#">Menschensuche</a></div></li>
+                            <li><div><a href="#">I10n & L18n</a></div></li>
+                        </ul>
+                    </nav>
+                    <div id="header-search-bar">
+                        <form method="get" action="/query.php">
+                            <input placeholder="Suche eingeben ...">
+                            <button>Suchen</button>
+                        </form>
+                    </div>
+                    <div id="header-account">
+                        <div><a href="#">Zum Konto</a></div>
+                    </div>
+                    <div id="header-language">
+                        <ul>
+                            <li><div><span>Language/Sprache:</span></div></li>
+                            <li><div><a href="#">Deutsch (DEU)</a></div></li>
+                            <li><div><a href="#">English (ENG)</a></div></li>
+                            <li><div><a href="#">Русский (RUS)</a></div></li>
+                            <li><div><a href="#" class="chinese">简体中文 (ZHO-S)</a></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="header-bottom"><!-- 2. Kopfteil: Navigationsleiste -->
+                <nav id="header-navigation">
+                    <!-- Main navigation bar in the header -->
+                    <!-- Der ganze scheiß PHP-Code muss da erstmal raus. Zuerst muss der ganze Bumms kontruiert werden. Danach wird mit PHP hantiert... -->
+                    <ul>
+                        <li>
+                            <div><a href="#">Startseite</a></div>
+                        </li>
+                        <li>
+                            <div><a href="#">Echoma</a></div>
+                            <ul>
+                                <li><div><a href="/Echoma/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Echoma/The-organization.php"><? echo $arrCurrent_Language['nav_organization']; ?></a></div></li>
+                                <li><div><a href="/Echoma/Personnel.php"><? echo $arrCurrent_Language['nav_personnel']; ?></a></div></li>
+                                <li><div><a href="/Echoma/Locations-of-all-offices.php"><? echo $arrCurrent_Language['nav_locations']; ?></a></div></li>
+                                <li><div><a href="/Echoma/Mission.php"><? echo $arrCurrent_Language['nav_mission']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/Passpyrus/Overview.php"><? echo $arrCurrent_Language['nav_Passpyrus']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/Passpyrus/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Passpyrus/The-ID.php"><? echo $arrCurrent_Language['nav_ID']; ?></a></div></li>
+                                <li><div><a href="/Passpyrus/Application-for-a-Passpyrus.php"><? echo $arrCurrent_Language['nav_application']; ?></a></div></li>
+                                <li><div><a href="/Passpyrus/Advantages-of-a-Passpyrus.php"><? echo $arrCurrent_Language['nav_advatages']; ?></a></div></li>
+                                <li><div><a href="/Passpyrus/Security.php"><? echo $arrCurrent_Language['nav_security']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/Career-and-contribution/Overview.php"><? echo $arrCurrent_Language['nav_career_contribution']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/Career-and contribution/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Career-and-contribution/Career.php"><? echo $arrCurrent_Language['nav_career']; ?></a></div></li>
+                                <li><div><a href="/Career-and-contribution/Contribution.php"><? echo $arrCurrent_Language['nav_contribution']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/Sponsoring-and-donation/Overview.php"><? echo $arrCurrent_Language['nav_sponsoring_donation']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/Sponsoring-and-donation/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Sponsoring-and-donation/Sponsors.php"><? echo $arrCurrent_Language['nav_sponsors']; ?></a></div></li>
+                                <li><div><a href="/Sponsoring-and-donation/Sponsoring.php"><? echo $arrCurrent_Language['nav_sponsoring']; ?></a></div></li>
+                                <li><div><a href="/Sponsoring-and-donation/Donation.php"><? echo $arrCurrent_Language['nav_donation']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/Press/Overview.php"><? echo $arrCurrent_Language['nav_press']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/Press/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Press/Announcements-and-press-releases.php"><? echo $arrCurrent_Language['nav_annoncements']; ?></a></div></li>
+                                <li><div><a href="/Press/Publications.php"><? echo $arrCurrent_Language['nav_publications']; ?></a></div></li>
+                                <li><div><a href="/Press/RSS-feed.php"><? echo $arrCurrent_Language['nav_rss']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/Help/Overview.php"><? echo $arrCurrent_Language['nav_help']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/Help/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/Help/Help-Center.php"><? echo $arrCurrent_Language['nav_help_center']; ?></a></div></li>
+                                <li><div><a href="/Help/Help-Forum.php"><? echo $arrCurrent_Language['nav_help_forum']; ?></a></div></li>
+                                <li><div><a href="/Help/Security-Center.php"><? echo $arrCurrent_Language['nav_security_center']; ?></a></div></li>
+                                <li><div><a href="/Help/Customer-Service.php"><? echo $arrCurrent_Language['nav_customer_service']; ?></a></div></li>
+                                <li><div><a href="/Help/Frequently-asked-questions.php"><? echo $arrCurrent_Language['nav_faq']; ?></a></div></li>
+                                <li><div><a href="/Help/Feedback.php"><? echo $arrCurrent_Language['nav_feedback']; ?></a></div></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div><a href="/About-us-and-other/Overview.php"><? echo $arrCurrent_Language['nav_about_others']; ?></a></div>
+                            <ul>
+                                <li><div><a href="/About-us-and-other/Overview.php"><? echo $arrCurrent_Language['nav_overview']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/The-organization.php"><? echo $arrCurrent_Language['nav_organization']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Contact.php"><? echo $arrCurrent_Language['nav_contact']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Site-map.php"><? echo $arrCurrent_Language['nav_site_map']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Terms-of-service.php"><? echo $arrCurrent_Language['nav_terms']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Policies-and-security.php"><? echo $arrCurrent_Language['nav_policies_security']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Privacy.php"><? echo $arrCurrent_Language['nav_privacy']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Cookies.php"><? echo $arrCurrent_Language['nav_cookies']; ?></a></div></li>
+                                <li><div><a href="/About-us-and-other/Copyright.php"><? echo $arrCurrent_Language['nav_copyright']; ?></a></div></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <div id="wrapper">
+                <div id="sub-navigation">
+                    <nav id="sub-navigation">
+                        <ul>
+                            <li>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="content">
+                    Here is the content located at. Have fun.
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            This is the footer.
+        </footer>
+    </div>
+
+</body>
+
+</html>
